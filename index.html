@@ -1,64 +1,570 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Malavika Mukunda | ISE Student Portfolio</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Font Awesome Icons -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; color: #333; }
-    header { background: #282c34; color: #fff; padding: 2rem 1rem; text-align: center; }
-    main { max-width: 960px; margin: 2rem auto; padding: 0 1rem; }
-    section { margin-bottom: 2rem; }
-    .portfolio-grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
-    .card { background: #fff; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); padding: 1.25rem; }
-    a { color: #0066cc; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-  </style>
 </head>
+
 <body>
-    <header>
-    <h1>MALAVIKA MUKUNDA</h1>
-   
-    <img src="images/WhatsApp Image 2026-08-12 at 15.02.15.jpeg" alt="Malavika Mukunda profile photo" class="profile-photo">
-    
-    <a href="#contact">Contact Me</a>
-</header>
-  
-  <main>
-    <section>
-      <h2>About Me</h2>
-      <p>I am a student passionate about technology, web development.I enjoy learning new skills and building projects that help me grow as a developer.</p>
-    </section>
-    
-    <section><section>
-  <h2>Skills</h2>
-  <div class="portfolio-grid">
-    <div class="card">
-      <h3>HTML</h3>
-      <p>Building structured and semantic web pages.</p>
-    </div>
 
-    <div class="card">
-      <h3>CSS</h3>
-      <p>Creating clean and responsive website designs.</p>
-    </div>
+    <!-- =========================
+         NAVIGATION
+    ========================== -->
 
-    <div class="card">
-      <h3>Python</h3>
-      <p>Learning programming and problem-solving with Python.</p>
-    </div>
+    <nav class="navbar">
 
-    <div class="card">
-      <h3>GitHub</h3>
-      <p>Learning version control and project collaboration.</p>
-    </div>
-  </div>
-</section>
-      <h2>Contact</h2>
-      <p>If you'd like to work together, feel free to reach out at <a href="mailto:malavikamukunda@gmail.com">malavikamukunda@gmail.com</a>.</p>
-    </section>
-  </main>
+        <div class="logo">Malavika</div>
+
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="nav-buttons">
+            <button class="theme-btn" aria-label="Toggle dark mode">🌙</button>
+            <button class="menu-btn" aria-label="Open navigation menu">☰</button>
+        </div>
+
+    </nav>
+
+
+    <!-- =========================
+         HOME SECTION
+    ========================== -->
+
+    <header id="home" class="hero">
+
+        <div class="hero-content">
+
+            <div class="hero-text">
+
+                <p class="intro">Hello, I'm</p>
+
+                <h1>Malavika Mukunda</h1>
+
+                <h2>ISE Student & Aspiring Developer</h2>
+
+                <p>
+                    Passionate about technology, web development and
+                    creating projects that help me grow as a developer.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#projects" class="btn primary-btn">
+                        <i class="fa-solid fa-code"></i>
+                        View Projects
+                    </a>
+
+                    <a href="#contact" class="btn secondary-btn">
+                        <i class="fa-solid fa-envelope"></i>
+                        Contact Me
+                    </a>
+
+                    <a href="resume.pdf" download class="btn primary-btn">
+                        <i class="fa-solid fa-file-arrow-down"></i>
+                        Download Resume
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-image">
+
+                <img
+                    src="images/WhatsApp Image 2026-08-12 at 15.02.15.jpeg"
+                    alt="Malavika Mukunda profile photo"
+                    class="profile-photo"
+                >
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <!-- =========================
+             ABOUT SECTION
+        ========================== -->
+
+        <section id="about" class="section">
+
+            <div class="section-title">
+
+                <p>Get To Know Me</p>
+
+                <h2>About Me</h2>
+
+            </div>
+
+
+            <div class="about-content">
+
+                <p>
+                    I am an Information Science and Engineering student
+                    passionate about technology and software development.
+                    I enjoy learning new skills, exploring web technologies
+                    and building projects that help me improve my technical
+                    knowledge.
+                </p>
+
+                <p>
+                    I am currently developing my skills in programming,
+                    web development and problem-solving while working on
+                    projects that give me practical experience.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SKILLS SECTION
+        ========================== -->
+
+        <section id="skills" class="section">
+
+            <div class="section-title">
+
+                <p>What I Know</p>
+
+                <h2>My Skills</h2>
+
+            </div>
+
+
+            <div class="skills-grid">
+
+                <div class="card">
+
+                    <i class="fa-brands fa-html5"></i>
+
+                    <h3>HTML</h3>
+
+                    <p>
+                        Building structured and semantic web pages.
+                    </p>
+
+                </div>
+
+
+                <div class="card">
+
+                    <i class="fa-brands fa-css3-alt"></i>
+
+                    <h3>CSS</h3>
+
+                    <p>
+                        Creating clean, attractive and responsive designs.
+                    </p>
+
+                </div>
+
+
+                <div class="card">
+
+                    <i class="fa-brands fa-python"></i>
+
+                    <h3>Python</h3>
+
+                    <p>
+                        Learning programming and problem-solving with Python.
+                    </p>
+
+                </div>
+
+
+                <div class="card">
+
+                    <i class="fa-brands fa-github"></i>
+
+                    <h3>GitHub</h3>
+
+                    <p>
+                        Learning version control and project collaboration.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             PROJECTS SECTION
+        ========================== -->
+
+        <section id="projects" class="section">
+
+            <div class="section-title">
+
+                <p>My Recent Work</p>
+
+                <h2>Projects</h2>
+
+            </div>
+
+
+            <div class="projects-grid">
+
+                <!-- PROJECT 1 -->
+
+                <div class="project-card">
+
+                    <div class="project-icon">
+                        <i class="fa-solid fa-bolt"></i>
+                    </div>
+
+                    <h3>Smart Energy Guardian</h3>
+
+                    <p>
+                        An IoT-based project designed to monitor energy
+                        consumption and reduce electricity wastage.
+                    </p>
+
+                    <span>
+                        IoT • ESP32 • Sensors
+                    </span>
+
+                    <div class="project-buttons">
+
+    <span class="project-status">
+        <i class="fa-solid fa-microchip"></i>
+        Prototype Project
+    </span>
+
+</div>
+
+                </div>
+
+
+                <!-- PROJECT 2 -->
+
+                <div class="project-card">
+
+                    <div class="project-icon">
+                        <i class="fa-solid fa-globe"></i>
+                    </div>
+
+                    <h3>Personal Portfolio</h3>
+
+                    <p>
+                        A responsive personal portfolio website built
+                        using HTML, CSS and JavaScript.
+                    </p>
+
+                    <span>
+                        HTML • CSS • JavaScript • Responsive Design
+                    </span>
+
+                    <div class="project-buttons">
+
+                        <a
+                            href="https://github.com/malavikamukunda/portfolio-website"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="btn primary-btn"
+                        >
+                            <i class="fa-brands fa-github"></i>
+                            GitHub
+                        </a>
+
+                        <a
+                            href="https://malavikamukunda.github.io/portfolio-website/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="btn secondary-btn"
+                        >
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            Live Demo
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- PROJECT 3 -->
+
+                <div class="project-card">
+
+                    <div class="project-icon">
+                        <i class="fa-solid fa-stopwatch"></i>
+                    </div>
+
+                    <h3>Stopwatch Web Application</h3>
+
+                    <p>
+                        A simple interactive stopwatch application created
+                        using HTML, CSS and JavaScript.
+                    </p>
+
+                    <span>
+                        HTML • CSS • JavaScript
+                    </span>
+
+                    <div class="project-buttons">
+
+                        <a href="#contact" class="btn secondary-btn">
+                            Coming Soon
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             EDUCATION SECTION
+        ========================== -->
+
+        <section id="education" class="section">
+
+            <div class="section-title">
+
+                <p>My Academic Journey</p>
+
+                <h2>Education</h2>
+
+            </div>
+
+
+            <div class="education-card">
+
+                <div class="education-icon">
+
+                    <i class="fa-solid fa-graduation-cap"></i>
+
+                </div>
+
+
+                <div class="education-content">
+
+                    <h3>
+                        Bachelor of Engineering – Information Science & Engineering
+                    </h3>
+
+                    <p class="college-name">
+                        Visvesvaraya Technological University (VTU)
+                    </p>
+
+                    <p class="education-year">
+                        2025 – 2029
+                    </p>
+
+                    <p>
+                        Currently pursuing my engineering degree while
+                        developing my skills in programming, web development
+                        and software technologies.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             RESUME SECTION
+        ========================== -->
+
+        <section class="section resume-section">
+
+            <div class="section-title">
+
+                <p>My Resume</p>
+
+                <h2>Want to Know More?</h2>
+
+            </div>
+
+            <p class="contact-text">
+                Download my resume to learn more about my education,
+                skills, projects and experience.
+            </p>
+
+            <a href="resume.pdf" download class="btn primary-btn">
+
+                <i class="fa-solid fa-file-arrow-down"></i>
+
+                Download Resume
+
+            </a>
+
+        </section>
+
+
+        <!-- =========================
+             CONTACT SECTION
+        ========================== -->
+
+        <section id="contact" class="section contact-section">
+
+            <div class="section-title">
+
+                <p>Let's Connect</p>
+
+                <h2>Contact Me</h2>
+
+            </div>
+
+
+            <p class="contact-text">
+                If you'd like to work together or connect with me,
+                feel free to reach out.
+            </p>
+
+
+            <p class="email-address">
+
+                <i class="fa-solid fa-envelope"></i>
+
+                malavikamukunda@gmail.com
+
+            </p>
+
+
+            <!-- Contact Form -->
+
+            <form id="contact-form">
+
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Your Name"
+                    required
+                >
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Your Email"
+                    required
+                >
+
+                <textarea
+                    id="message"
+                    placeholder="Your Message"
+                    required
+                ></textarea>
+
+                <button
+                    type="submit"
+                    class="btn primary-btn"
+                >
+
+                    <i class="fa-solid fa-paper-plane"></i>
+
+                    Send Message
+
+                </button>
+
+            </form>
+
+
+            <br>
+
+
+            <a
+                href="mailto:malavikamukunda@gmail.com"
+                class="btn primary-btn"
+            >
+
+                <i class="fa-solid fa-envelope"></i>
+
+                Email Me
+
+            </a>
+
+
+            <!-- Social Links -->
+
+            <div class="social-links">
+
+                <a
+                    href="https://github.com/malavikamukunda"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="GitHub"
+                >
+
+                    <i class="fa-brands fa-github"></i>
+
+                </a>
+
+
+                <a
+                    href="https://www.linkedin.com/in/malavika-mukunda-20800a393"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="LinkedIn"
+                >
+
+                    <i class="fa-brands fa-linkedin"></i>
+
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer>
+
+        <p>
+            © 2026 Malavika Mukunda. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+
+    <script src="script.js"></script>
+
 </body>
+
 </html>
- 
